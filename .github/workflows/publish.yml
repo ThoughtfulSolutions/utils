@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@chatwoot'
+          scope: '@leadrobot'
       - run: yarn
       - run: yarn test
       - run: yarn build
